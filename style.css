@@ -7,3 +7,31 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body{
+    /*height e o width: a tela toda/ justify e o align são os centro*/
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://picsum.photos/seed/picsum/1600/900");
+    /*imagem unica sem mudanças por enquanto*/
+}
+
+.container{
+    background: #000000;
+    opacity: 0.8;
+    border-radius: 25px;
+    padding: 22px;
+}
+
+.input-cidade {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: rgb(51, 49, 49);
+    color: beige;
+    width: calc(100% - 100px);
+}
