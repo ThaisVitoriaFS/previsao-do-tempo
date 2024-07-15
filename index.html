@@ -12,18 +12,28 @@
 <body>
     <div class="container">
         <input class="input-cidade" placeholder="Digite uma localização">
-        <button class="button">
-            <img src="assets/img/icons8-pesquisar-48.png" alt="buscar">
+        <button class="button" onclick="clickNoBotao()">
+            <img class="img-buscar" src="assets/img/icons8-search-26.png" alt="buscar">
 
         </button>
 
-        <h2>Tempo em São Paulo</h2>
-        
-        <p>21C</p>
-        
-        <img alt="icon-do-tempo" src="assets/img/icons8-nuvem-100.png"> <p>Nublado</p>
+    <div class="container-medio">
 
-        <p>Umidade: 7%</p>
+        <h2 class="cidade">Tempo em São Paulo</h2>
+        
+        <p class="tempo">21C</p>
+
+        <div class="container-small">
+            <img class="icon-do-tempo" alt="icon-do-tempo" src="assets/img/icons8-nuvem-100.png"> 
+            <p class="text-previsao">Nublado</p>
+         </div>
+
     </div>
+
+        <p class="umidade">Umidade: 7%</p>
+    </div>
+
+    <script src="script.js"></script>
+
 </body>
 </html>

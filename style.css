@@ -23,6 +23,8 @@ body{
     opacity: 0.8;
     border-radius: 25px;
     padding: 22px;
+    width: 95%;
+    max-width: 450px;
 }
 
 .input-cidade {
@@ -33,5 +35,60 @@ body{
     font-size: 20px;
     background-color: rgb(51, 49, 49);
     color: beige;
-    width: calc(100% - 100px);
+    width: calc(100% - 80px);
+    /* esse width é a linha de digite alguma coisa tralala*/
+}
+
+.button{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 100px;
+    background-color: rgb(51, 49, 49);
+    cursor: pointer;
+    float: right;
+}
+
+.img-buscar{
+    width: 25px;
+}
+
+.container-medio{
+    margin-top: 30px;
+}
+
+.cidade{
+    color: beige;
+    font-size: 25px;
+    /*font-weight: 300; <- pra deixar a letra mais fina*/
+}
+
+.tempo{
+    font-size: 20px;
+    color: beige;
+    margin-top: 20px;
+}
+
+.container-small{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.text-previsao{
+    color: beige;
+    margin-top: 20px;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+.icon-do-tempo{
+    width: 50px;
+    margin-top: 5px;
+    background-color: beige;
+}
+
+.umidade{
+    color: beige;
+    margin-top: 20px;
 }
